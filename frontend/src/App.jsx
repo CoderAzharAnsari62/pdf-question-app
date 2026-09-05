@@ -7,7 +7,7 @@ import PdfUpload from "./components/PdfUpload";
 import QuestionBox from "./components/QuestionBox";
 import Answer from "./components/Answer";
 
-const API_BASE = "/api";
+const API_BASE = "https://pdf-question-app.onrender.com/api";
 
 async function readApiResponse(response) {
   const contentType = response.headers.get("content-type") || "";
